@@ -1,0 +1,19 @@
+.blue-text{
+    color: blue;
+}
+.center{
+    text-align: center;
+}
+.table-titles{
+    color: darkred;
+    background-color: antiquewhite;
+}
+.table-content{
+    background-color: brown;
+    color: whitesmoke; text-align: center;
+}
+.table-sno{
+    background-color: cadetblue;
+    color: whitesmoke;
+}
+

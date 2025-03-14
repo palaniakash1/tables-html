@@ -4,43 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tables</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .heading-table{
+    margin-top: 100px;
+}
+h1{
+    color: darkslateblue;
+}
+    </style>
 </head>
 <body>
     <table border="1" width="100%">
-        <h1>table one</h1>
-        <thead>
-            <th>sno</th>
+        <h1 class="center table-content">table one</h1>
+        <thead class="table-titles">
+            <th class="">sno</th>
             <th>Name</th>
             <th>Phone</th>
             <th>Image</th>
         </thead>
-        <tbody>
+        <tbody class="table-content">
             <tr>
-                <td>1</td>
+                <td class="table-sno">1</td>
                 <td>Akash</td>
                 <td>9876541230</td>
                 <td><img src="akash.jpg" alt="akash"width="100px" height="100px"></td>
             </tr>
             <tr>
-                <td>2</td>
+                <td class="table-sno">2</td>
                 <td>Bharath</td>
                 <td>9876541230</td>
                 <td><img src="0557465d8d9ce3f414107c6f78fcc693.jpg" alt="akash"width="100px" height="100px"></td>
             </tr>
             <tr>
-                <td>3</td>
+                <td class="table-sno">3</td>
                 <td>Saran</td>
                 <td>9876541230</td>
                 <td><img src="15820aae37c67ee469a5f1198c6b2583.jpg" alt="akash"width="100px" height="100px"></td>
             </tr>
             <tr>
-                <td>4</td>
+                <td class="table-sno">4</td>
                 <td>Anjana</td>
                 <td>9876541230</td>
                 <td><img src="joker.jpg" alt="akash"width="100px" height="100px"></td>
             </tr>
             <tr>
-                <td>5</td>
+                <td class="table-sno">5</td>
                 <td>Bhuvanesh</td>
                 <td>9876541230</td>
                 <td><img src="skeleton wine.jpg" alt="akash"width="100px" height="100px"></td>
@@ -49,14 +58,14 @@
     </table>
 
      <table border="1" width="100%">
-        <h1>table three</h1>
+        <h1 class="center heading-table">table three</h1>
 
-        <thead>
+        <thead  class="table-content">
             <th>sno</th>
             <th colspan="2">Title</th>
             <th>Pdf</th>
         </thead>
-        <tbody>
+        <tbody class="table-titles center">
             <tr>
                 <td>1</td>
                 <td>Akash</td>
@@ -86,7 +95,7 @@
                 <td>9876541230</td>
                 <td><img src="skeleton wine.jpg" alt="akash"width="100px" height="100px"></td>
             </tr>
-            
+            <h1 class="center"><span class="blue-text">blue</span> is my favo color</h1>
         </tbody>
     </table>
     
